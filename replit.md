@@ -35,17 +35,21 @@ npm install
 npm run dev          # starts on port 5000
 ```
 
+## GitHub
+
+The source code lives at: **https://github.com/rakeshv02/word-unscrambler**
+
 ## Deployment (Vercel)
 
-The project is structured as a standard Vite SPA. To deploy:
+A `vercel.json` is included — Vercel will auto-detect the settings. To deploy:
 
-1. Push to a GitHub repo
-2. Import into Vercel
-3. Framework preset: **Vite**
-4. Build command: `npm run build`
-5. Output directory: `dist`
+1. Go to **https://vercel.com/new** and click **Import Git Repository**
+2. Select `rakeshv02/word-unscrambler`
+3. Framework will be detected as **Vite** automatically
+4. Build command: `npm run build` | Output directory: `dist`
+5. Click **Deploy** — no environment variables required
 
-No environment variables are required.
+The SPA rewrite rule in `vercel.json` ensures deep links work correctly.
 
 ## Adding Google AdSense
 
