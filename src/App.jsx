@@ -639,7 +639,7 @@ const WordUnscrambler = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#f9f7f2] to-[#f5f1e8] p-6">
       <div className="max-w-2xl mx-auto">
-        {/* Header */}
+        {/* Header */}<nav style={{background:'#1e293b',padding:'12px 20px',display:'flex',alignItems:'center',gap:16,borderBottom:'1px solid #334155',margin:'-0px'}}><span style={{color:'#fff',fontWeight:700,fontSize:16}}>⚡ Tabutility</span><a href="https://tabutility.com" style={{color:'#94a3b8',textDecoration:'none',fontSize:14}}>← All Tools</a></nav>
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
             Word Unscrambler
